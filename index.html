@@ -43,7 +43,7 @@
       <br><br>
 
   <footer class="page-footer teal">
-    <div class="container">
+
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">About Me</h5>
@@ -55,11 +55,11 @@
         <div class="col l3 s12">
           <h5 class="white-text">Contact me</h5>
           <ul>
-            <li><a class="white-text" onclick="notifyMe()">Discord</a></li>
+            <li><a class="white-text" href="#" onclick="notifyMe()">Discord</a></li>
           </ul>
         </div>
       </div>
-    </div>
+
     <div class="footer-copyright">
       <div class="container">
       Porfolio made by <a class="teal-text text-lighten-3" href="https://p.lucki.party">Burdened</a>
@@ -69,7 +69,7 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<script>
-function notifyMe(){if(Notification)if("granted"!==Notification.permission)Notification.requestPermission();else new Notification("Notification title",{body:"Hey there! Burdened#6031 is the discord name"});else alert("Woah, mobile user or bulky browser detected.")}document.addEventListener("DOMContentLoaded",function(){"granted"!==Notification.permission&&Notification.requestPermission()});
+function notifyMe(){if(Notification)if("granted"!==Notification.permission)Notification.requestPermission();else new Notification("burdened@lucki.party:~$",{body:"Hey there! Burdened#6031 is the discord name"});else alert("Woah, mobile user or bulky browser detected.")}document.addEventListener("DOMContentLoaded",function(){"granted"!==Notification.permission&&Notification.requestPermission()});
 	    </script>
     </body>
 </html>
